@@ -13,7 +13,7 @@
 	<link href="${springCss}" rel="stylesheet" />
 	 -->
 	<c:url value="/css/main.css" var="jstlCss" />
-	<link href="${jstlCss}" rel="stylesheet" />
+	<link href="${Css}" rel="stylesheet" />
 
 </head>
 <body>
@@ -22,11 +22,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">Spring Boot</a>
-			</div><div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Spring Boot</a>
-			</div>
-			
+			</div>			
 			<div id="navbar" class="collapse navbar-collapse">
 			
 				<ul class="nav navbar-nav">
@@ -36,14 +32,7 @@
 			</div>
 		</div>
 	</nav>
-
-	<div class="container">
-
-		<div class="starter-template">
-			<h1>Spring Boot Web JSP Example</h1>
-			<h2>Message: ${message}</h2>
-		</div>
-
+	
 	</div>
 	
 	<script type="text/javascript" src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
